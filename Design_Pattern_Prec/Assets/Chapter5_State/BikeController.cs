@@ -37,8 +37,10 @@ namespace Character.State
             _bikeStateContext.Transition(_stopState);
         }
 
-        public void TurnBike()
+        public void Turn(Direction direction)
         {
+            CurrentTurnDirection = direction;
+            
             _bikeStateContext.Transition(_turnState);
         }
     }
