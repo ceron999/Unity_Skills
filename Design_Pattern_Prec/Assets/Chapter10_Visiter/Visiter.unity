@@ -122,6 +122,53 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1426842076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1426842078}
+  - component: {fileID: 1426842077}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1426842077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426842076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b429a31ffd229254890ed9eb2c97a20b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enginePowerUp: {fileID: 11400000, guid: 52569a101d9a06d4f9ee6a0801a555c7, type: 2}
+  shieldPowerUp: {fileID: 11400000, guid: 2db2a775bfdb2b544a6f7dd6eec49dcc, type: 2}
+  weaponPowerUp: {fileID: 11400000, guid: 261fc849c4ed21948890a7f98ede4c66, type: 2}
+--- !u!4 &1426842078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426842076}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4028333, y: -17.557398, z: 14.989926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1667363033
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,3 +361,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1667363036}
   - {fileID: 1945217321}
+  - {fileID: 1426842078}

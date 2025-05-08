@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf119cc2df8b59342b373c0e857994b7, type: 3}
   m_Name: PowerUp 3
   m_EditorClassIdentifier: 
-  powerupName: 
+  powerupName: 3
   powerupPrefab: {fileID: 0}
-  powerupDescription: 
+  powerupDescription: 33
   healShield: 0
-  turboBoost: 0
-  weaponRange: 0
-  weaponStrength: 0
+  turboBoost: 30
+  weaponRange: 25
+  weaponStrength: 30
