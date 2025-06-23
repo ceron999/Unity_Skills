@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Chapter4_Singleton/Init.unity
+    path: Assets/Unity Design Pattern/Chapter4_Singleton/Init.unity
     guid: deca72304d777a44a9fd11f39a06dc55
   - enabled: 1
-    path: Assets/Chapter4_Singleton/Test1.unity
+    path: Assets/Unity Design Pattern/Chapter4_Singleton/Test1.unity
     guid: c1c9c6d38a9df2d43baa1e2e13254596
   m_configObjects: {}

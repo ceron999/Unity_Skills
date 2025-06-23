@@ -51,11 +51,11 @@ public class ProfilerDataLoaderWIndow : EditorWindow
         if (GUILayout.Button("find files"))
             ReadProfilerDataFiles();
 
-        if (s_cachedFileDaths == null) return;
+        if (s_cachedFileDaths == null || s_cachedFileDaths.Count == 0)
+            return;
 
         EditorGUILayout.Space();
-        EditorGUILayout.LabelField("FIles");
-        EditorGUILayout.BeginHorizontal();
+        EditorGUILayout.LabelField("Files");
 
         GUIStyle defaultStyle = new GUIStyle(GUI.skin.button);
         defaultStyle.fixedWidth = 40f;
@@ -82,7 +82,5 @@ public class ProfilerDataLoaderWIndow : EditorWindow
         }
 
         EditorGUILayout.EndHorizontal(); // 마지막 줄 닫기
-
-
     }
 }
