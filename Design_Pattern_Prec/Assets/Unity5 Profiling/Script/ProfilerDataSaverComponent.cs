@@ -40,7 +40,7 @@ public class ProfilerDataSaverComponent : MonoBehaviour
             Debug.Log("Profiling to: " + filepath);
 
             // 수집 시간 확보
-            for (int i = 0; i < 10; ++i)
+            for (int i = 0; i < 300; ++i)
             {
                 yield return new WaitForEndOfFrame();
             }
